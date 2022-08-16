@@ -19,5 +19,8 @@
   "homepage": "https://github.com/rodrigoperochena/fend-web#readme",
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.54.4"
   }
 }
