@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serveEleventy": "npx @11ty/eleventy --serve",
+    "watchSass": "npx sass src/sass:_site/css --watch",
+    "startBuild": "concurrently \"npm run serveEleventy\" \"npm run watchSass\""
   },
   "repository": {
     "type": "git",
