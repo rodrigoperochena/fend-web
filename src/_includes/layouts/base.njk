@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include "_head.html" %}
+</head>
+<body class="page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %}">
+  {% include "_banner.html" %}
+  {% include "_article.html" %}
+
+  {{ content | safe }}
+  <script>
+  {{ js | safe }}
+  </script>
+</body>
+</html>
