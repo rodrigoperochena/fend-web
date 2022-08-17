@@ -1,0 +1,62 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font: 300 1rem/1.5 Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.nobullets {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(60rem + var(--gutter) + var(--gutter));
+  padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  margin-inline: auto;
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--fg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+}
