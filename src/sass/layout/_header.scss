@@ -1,4 +1,8 @@
 .site-header {
+  .site-logo {
+    padding-top: var(--gutter);
+  }
+  
   .logo-img {
     max-width: var(--step-7);
     transform: rotate(-90deg) translateY(0) translateX(-100%);
