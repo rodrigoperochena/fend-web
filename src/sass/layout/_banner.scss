@@ -1,0 +1,38 @@
+.page--about {
+  background-image: url(/assets/img/about.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.page--volunteer {
+  background-image: url(/assets/img/volunteer.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner {
+  height: 45vh;
+  padding-top: var(--gutter);
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .site-logo {
+    position: fixed;
+    transform: rotate(-90deg) translateY(0) translateX(-100%);
+    transform-origin: top left;
+  }
+
+  .logo-img {
+    width: var(--step-7);
+  }
+
+  h1 {
+    font-size: var(--step-2);
+    padding-left: var(--space-xl-3xl);
+  }
+}
