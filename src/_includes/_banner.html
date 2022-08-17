@@ -1,0 +1,16 @@
+<div class="banner">
+  <div class="container">
+    <div class="site-logo">
+      <a href="/">
+        <img src="/assets/img/logo.svg" alt="Fend site logo image" class="logo-img">
+      </a>
+    </div>
+    {% if '/about' in page.url %}
+      <h1>Fend is a registered non profit whose sole pursuit is the purchase and protection of very large areas of natural habitat</h1>
+    {% endif %}
+    
+    {% if '/volunteer' in page.url %}
+      <h1>You may be able to make a big impact by contributing your skills to this campaign</h1>
+    {% endif %}
+  </div>
+</div>
