@@ -1,9 +1,8 @@
 .site-header {
-  .site-logo {
-    padding-top: var(--gutter);
-  }
+  padding-top: var(--gutter);
+  padding-left: var(--gutter);
   
-  .logo-img {
+  .site-logo {
     max-width: var(--step-7);
     transform: rotate(-90deg) translateY(0) translateX(-100%);
     transform-origin: top left;
