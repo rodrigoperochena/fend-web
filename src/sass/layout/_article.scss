@@ -1,0 +1,27 @@
+.article {
+  background-color: hsl(240, 24%, 96%, .8);
+  padding-top: var(--space-l);
+  padding-bottom: var(--space-l);
+  border-radius: .5rem .5rem 0 0;
+
+  .article__title {
+    font-size: var(--step-3);
+    position: sticky;
+    top: clamp(5rem, calc(4.5rem + 12vw), 14rem);
+    height: 0;
+    width: fit-content;
+    line-height: 1;
+    transform: rotate(-90deg) translateY(0) translateX(-100%);
+    transform-origin: top left;
+  }
+
+  p {
+    font-size: var(--step-0);
+    margin-bottom: var(--space-s);
+    padding-left: var(--space-xl-3xl);
+    
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
