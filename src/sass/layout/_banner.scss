@@ -1,12 +1,13 @@
 .page--about {
   background-image: url(/assets/img/about.jpg);
-  background-position: top;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .page--volunteer {
   background-image: url(/assets/img/volunteer.jpg);
+}
+
+.page--about,
+.page--volunteer {
   background-position: top;
   background-size: cover;
   background-attachment: fixed;
