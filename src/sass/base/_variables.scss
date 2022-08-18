@@ -13,10 +13,10 @@
     --color-900: hsl(240, 3%, 11%);
 
     //theme palette
-    --bg-color: var(--color-025);
-    --bg-color-darker: var(--color-050);
-    --bg-color-lighter: white;
+    --bg-color-opacity: hsla(240, 24%, 96%, 0.9);
+    --bg-color-nav: var(--color-900);
     --text-color: var(--color-800);
+    --text-color-nav: var(--color-025);
     --text-color-link: var(--color-800);
     --text-color-darker: var(--color-900);
     --accent: hsl(149, 82%, 44%);
@@ -69,3 +69,10 @@
     --space-xl-3xl: clamp(3.00rem, calc(1.24rem + 8.78vw), 7.50rem);
     --gutter: clamp(1.00rem, calc(0.41rem + 2.93vw), 2.50rem);
 }
+
+$font-light: 300;
+$font-regular: 400;
+$font-semibold: 600;
+$font-bold: 700;
+
+$box-shadow: 0 0 1rem -.125rem rgba(0, 0, 0, .1);
