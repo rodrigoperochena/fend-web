@@ -4,12 +4,21 @@
   {% include "_head.html" %}
 </head>
 <body class="page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %}">
-  {% include "_banner.html" %}
+  
+{% include "_navigation.html" %}
+{% include "_banner.html" %}
+
+{% if tag == 'subPages' %}
   {% include "_article.html" %}
+{% endif %}
 
   {{ content | safe }}
-  <script>
-  {{ js | safe }}
-  </script>
+
+{% set js %}
+  {% include "_main.js" %}
+{% endset %}
+<script>
+{{ js | safe }}
+</script>
 </body>
 </html>
