@@ -3,7 +3,6 @@
   padding-top: var(--space-l);
   padding-bottom: var(--space-l);
   border-radius: 1rem 1rem 0 0;
-  min-height: 100vh;
 
   &__title {
     font-size: var(--step-4);
@@ -16,6 +15,10 @@
     padding-top: var(--gutter);
     transform: rotate(-90deg) translateY(0) translateX(-100%);
     transform-origin: top left;
+
+    @include xl {
+      margin-left: var(--space-xs);
+    }
   }
 
   p {
