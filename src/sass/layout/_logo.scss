@@ -3,6 +3,10 @@
   transform: rotate(-90deg) translateY(0) translateX(-100%);
   transform-origin: top left;
   padding: var(--gutter) var(--gutter) 0 0;
+
+  @include xl {
+    margin-left: var(--space-xs);
+  }
 }
 
 .logo-img {
