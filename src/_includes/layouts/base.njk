@@ -7,14 +7,18 @@
 
 {% include "_logo.html" %}
 {% include "_navigation.html" %}
-{% include "_banner.html" %}
+{% include "_left-bar.html" %}
 
-{% if tag == 'subPages' %}
+{% if tag == 'subPage' %}
+  {% include "_banner.html" %}
   {% include "_article.html" %}
 {% endif %}
 
   {{ content | safe }}
 
+  <footer class="site-footer">
+    {% include "_footer.html" %}
+  </footer>
 {% set js %}
   {% include "_main.js" %}
 {% endset %}
