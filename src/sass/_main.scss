@@ -1,10 +1,13 @@
 // Base
 // -------------------------
 @import 'base/base';
+@import 'base/breakpoints';
 
 // Layouts
 // -------------------------
 @import 'layout/logo';
+@import 'layout/left-bar';
 @import 'layout/banner';
 @import 'layout/article';
-@import 'layout/navigation'
+@import 'layout/navigation';
+@import 'layout/footer'
