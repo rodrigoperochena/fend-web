@@ -1,0 +1,10 @@
+.site-logo {
+  position: fixed;
+  transform: rotate(-90deg) translateY(0) translateX(-100%);
+  transform-origin: top left;
+  padding: var(--gutter) var(--gutter) 0 0;
+}
+
+.logo-img {
+  width: var(--step-7);
+}
