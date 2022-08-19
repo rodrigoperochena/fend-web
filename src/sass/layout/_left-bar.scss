@@ -1,0 +1,14 @@
+.left-bar {
+  display: none;
+  position: fixed;
+  height: 100%;
+
+  img {
+    max-width: var(--space-xs);
+    height: 100%;
+  }
+
+  @include xl {
+    display: block;
+  }
+}
