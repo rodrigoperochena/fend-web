@@ -16,19 +16,9 @@
 .banner {
   height: 45vh;
   padding-top: var(--gutter);
-  
-  .site-logo {
-    position: fixed;
-    transform: rotate(-90deg) translateY(0) translateX(-100%);
-    transform-origin: top left;
-  }
-
-  .logo-img {
-    width: var(--step-7);
-  }
 
   h1 {
     font-size: var(--step-1);
-    padding: 0 var(--space-xl-3xl);
+    padding: 0 var(--space-xl-2xl);
   }
 }
