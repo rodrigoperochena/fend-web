@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const navTab = document.querySelector('.nav-tab')
   const navMenu = document.querySelector('.nav-wrapper')
-  const navTabTitleMenu = document.querySelector('.nav-tab__title--menu')
-  const navTabTitleClose = document.querySelector('.nav-tab__title--close')
+  const navTabTitleMenu = document.querySelector('.nav-tab-title--menu')
+  const navTabTitleClose = document.querySelector('.nav-tab-title--close')
   const burgerIcon = document.querySelector('.burger')
 
   navTab.addEventListener('click', () => {
