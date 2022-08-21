@@ -21,10 +21,13 @@
     }
   }
 
+  &__text {
+    padding-left: var(--step-5);
+  }
+
   p {
     font-size: var(--step-0);
     margin-bottom: var(--space-s);
-    padding-left: var(--space-xl-2xl);
     
     &:last-of-type {
       margin-bottom: 0;
