@@ -7,7 +7,6 @@
   transition: transform .5s;
   height: 100%;
   background-color: var(--bg-color-nav);
-  box-shadow: 0 -4px 0.5rem -0.125rem rgb(0 0 0 / 35%);
 }
 
 nav {
@@ -28,7 +27,7 @@ nav {
   -webkit-tap-highlight-color: transparent;
   background-color: var(--bg-color-nav);
   border-radius: 1rem 1rem 0 0;
-  box-shadow: -4px -4px 0.5rem -.125rem rgb(0 0 0 / 35%);
+  box-shadow: 0 -.375rem .5rem -.125rem rgb(0 0 0 / 35%);
 }
 
 .nav-tab-container {
