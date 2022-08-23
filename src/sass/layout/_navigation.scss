@@ -7,6 +7,7 @@
   transition: transform .5s;
   height: 100%;
   background-color: var(--bg-color-nav);
+  z-index: 2;
 }
 
 nav {
@@ -28,6 +29,14 @@ nav {
   background-color: var(--bg-color-nav);
   border-radius: 1rem 1rem 0 0;
   box-shadow: $box-shadow-tab;
+}
+
+.nav-tab:hover .nav-tab-title {
+  color: var(--accent);
+}
+
+.nav-tab:hover .burger-line {
+  background-color: var(--accent);
 }
 
 .nav-tab-container {
@@ -66,6 +75,7 @@ nav {
   line-height: 1;
   width: clamp(3.34rem, 3.8vw, 3.8rem);
   justify-content: center;
+
 }
 
 .nav-tab-title--close {
@@ -87,7 +97,7 @@ nav {
     width: var(--step-0);
     height: .125rem;
     background-color: var(--text-color-nav);
-    transition: .5s;
+    transition: all .5s, background-color 0s;
   }
 
   .burger-line--top {
