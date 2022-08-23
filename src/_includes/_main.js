@@ -40,6 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
       navMenu.classList.remove('menu-open')
       burgerIcon.classList.remove('x')
       pageOverlay.classList.remove('page-overlay--active')
+      navTabTitleClose.style.display = 'none'
+      navTabTitleMenu.style.display = 'flex'
     }
   })
 
