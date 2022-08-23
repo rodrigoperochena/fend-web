@@ -4,7 +4,7 @@ The focal point of Fend is a site where users can purchase rainforest in half ac
 
 ## How it will work
 
-To do thiswe introduce interactivity to the site enabling users to zoom in and select one pixel of the front page for every 0.5 acre of rainforest that they purchase at $60. As people donate the front page will be increasingly populated by green dots.
+To do this we introduce interactivity to the site enabling users to zoom in and select one pixel of the front page for every 0.5 acre of rainforest that they purchase at $60. As people donate the front page will be increasingly populated by green dots.
 
 In its first instance this novelty gives donors incentive to return to Fend and follow progress on social media. Providing donors with images and GIFs of their block/s (formatted for social platforms) will further encourage engagement and referrals.
 
