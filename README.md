@@ -1,12 +1,10 @@
 # Fend Web
 
-A site build with static site generator Eleventy.
-
+A site built with static site generator Eleventy.
 
 ## Requirements
 
 [NPM](https://npmjs.com)
-
 
 ## Installation
 
