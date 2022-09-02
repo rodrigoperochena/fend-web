@@ -23,6 +23,10 @@
 
   &__text {
     padding-left: var(--step-5);
+
+    @include xl {
+      padding-left: 0;
+    }
   }
 
   p {
