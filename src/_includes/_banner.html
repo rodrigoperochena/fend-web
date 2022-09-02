@@ -1,11 +1,36 @@
 <div class="banner">
   <div class="container">
     {% if '/about' in page.url %}
-      <h1>Fend is a registered non profit whose sole pursuit is the purchase and protection of very large areas of natural habitat.</h1>
+      <h1>You buy the blocks, We buy the Rainforest, Together; We save 1 million acres of Nature.</h1>
+    {% endif %}
+
+    {% if '/contact' in page.url %}
+      <h1>Contact us, send an email</h1>
+    {% endif %}
+
+    {% if '/how-it-works' in page.url %}
+      <h1>You buy the blocks, We buy the Rainforest, Together; We save 1 million acres of Nature</h1>
+    {% endif %}
+
+    {% if '/payment-help' in page.url %}
+      <h1>Acepted payments and checkout help</h1>
     {% endif %}
     
-    {% if '/volunteer' in page.url %}
-      <h1>You may be able to make a big impact by contributing your skills to this campaign</h1>
+    {% if '/faq' in page.url %}
+      <h1>Understand the complexities of land aquisition for conservation</h1>
     {% endif %}
+
+    {% if '/privacy' in page.url %}
+      <h1>Commited to privacy rights and transparancy</h1>
+    {% endif %}
+
+    {% if '/media' in page.url %}
+      <h1>Resources to promote or discuss or support feNd</h1>
+    {% endif %}
+
+    {% if '/volunteer' in page.url %}
+      <h1>You can have a big impact by contributing your time and skills to the Fend project</h1>
+    {% endif %}
+
   </div>
 </div>
