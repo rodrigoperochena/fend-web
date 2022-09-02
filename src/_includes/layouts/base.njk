@@ -5,11 +5,15 @@
 </head>
 <body class="page--{% if page.fileSlug %}{{ page.fileSlug }}{% else %}home{% endif %}">
 <div class="page-overlay"></div>
+{% if tag == 'homePage' %}
+  {% include "_grid.html" %}
+{% endif %}
+
 {% include "_logo.html" %}
 {% include "_navigation.html" %}
-{% include "_left-bar.html" %}
 
 {% if tag == 'subPage' %}
+  {% include "_left-bar.html" %}
   {% include "_banner.html" %}
   {% include "_article.html" %}
 {% endif %}
