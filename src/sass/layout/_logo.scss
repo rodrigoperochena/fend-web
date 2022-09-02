@@ -3,12 +3,33 @@
   transform: rotate(-90deg) translateY(0) translateX(-100%);
   transform-origin: top left;
   padding: var(--gutter) var(--gutter) 0 0;
+  z-index: 1;
 
   @include xl {
     margin-left: var(--space-xs);
   }
+
+  svg {
+    width: var(--step-8);
+
+    .a {
+      fill: var(--text-color);
+    }
+
+    @include xl {
+      .a {
+        fill: var(--color-025);
+      }
+    }
+  }
 }
 
-.logo-img {
-  width: var(--step-7);
-}
+// .page--home {
+
+//   .site-logo {
+//     path {
+//       fill: var(--color-025);
+//     }
+//   }
+
+// }
