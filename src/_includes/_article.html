@@ -1,18 +1,42 @@
-<article class="article">
-  {% if '/about' in page.url %}
-  <h1 class="article__title">ABOUT</h1>
-  <div class="container">
-      <div class="article__text">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore culpa nemo velit qui modi. Deserunt rerum cum numquam sequi fuga repellat minima recusandae iure, doloribus, eligendi fugit a perspiciatis laudantium facere suscipit reiciendis molestiae, nihil quibusdam expedita labore eum tenetur?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque vero quaerat assumenda fugit temporibus libero tempore deserunt minus ex excepturi saepe, earum vitae! Sed tempore dolorum omnis ipsam commodi dolorem, quidem id accusantium! Sapiente id perspiciatis nostrum sed magni numquam. Assumenda dolorem distinctio facere, quaerat saepe consequatur eveniet! Eaque porro vero esse perspiciatis modi possimus impedit quia accusamus expedita.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus ea saepe maxime necessitatibus totam architecto unde, est commodi? Neque earum sunt quidem error obcaecati alias harum voluptate soluta, voluptas reiciendis temporibus quasi inventore autem delectus deserunt esse cupiditate in?</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum eius libero debitis neque voluptatem labore minima dolore ea quis est placeat ad consequatur iste harum nihil, culpa error ullam odit deserunt, corrupti at id? Exercitationem, numquam iste optio recusandae illo modi atque ut non nostrum fuga iusto quo nihil debitis, eveniet tempore dolorem magnam dicta consequatur voluptatibus, temporibus cum ipsam?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ducimus facere rem a odio. Doloribus perspiciatis illo minima velit molestiae?</p>
-      </div>
-  </div>
-  {% endif %}
+{% if '/about' in page.url %}
+  <article class="article">
+    <h1 class="article__title">ABOUT</h1>
+    <div class="container">
+        <div class="article__text">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore culpa nemo velit qui modi. Deserunt rerum cum numquam sequi fuga repellat minima recusandae iure, doloribus, eligendi fugit a perspiciatis laudantium facere suscipit reiciendis molestiae, nihil quibusdam expedita labore eum tenetur?</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque vero quaerat assumenda fugit temporibus libero tempore deserunt minus ex excepturi saepe, earum vitae! Sed tempore dolorum omnis ipsam commodi dolorem, quidem id accusantium! Sapiente id perspiciatis nostrum sed magni numquam. Assumenda dolorem distinctio facere, quaerat saepe consequatur eveniet! Eaque porro vero esse perspiciatis modi possimus impedit quia accusamus expedita.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur temporibus ea saepe maxime necessitatibus totam architecto unde, est commodi? Neque earum sunt quidem error obcaecati alias harum voluptate soluta, voluptas reiciendis temporibus quasi inventore autem delectus deserunt esse cupiditate in?</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum eius libero debitis neque voluptatem labore minima dolore ea quis est placeat ad consequatur iste harum nihil, culpa error ullam odit deserunt, corrupti at id? Exercitationem, numquam iste optio recusandae illo modi atque ut non nostrum fuga iusto quo nihil debitis, eveniet tempore dolorem magnam dicta consequatur voluptatibus, temporibus cum ipsam?</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea ducimus facere rem a odio. Doloribus perspiciatis illo minima velit molestiae?</p>
+        </div>
+    </div>
+  </article>
+{% endif %}
 
-  {% if '/volunteer' in page.url %}
+{% if '/contact' in page.url %}
+  <h1 class="article__title">CONTACT</h1>
+  <div class="container">
+    <div class="article__text">
+      <div class="article__bit-01">
+        <p>Input the content</p>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% if '/payment-help' in page.url %}
+  <h1 class="article__title">PAYMENT HELP</h1>
+  <div class="container">
+    <div class="article__text">
+      <div class="article__bit-01">
+        <p>Input the content</p>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% if '/volunteer' in page.url %}
+<article class="article">
   <h1 class="article__title">VOLUNTEER</h1>
   <div class="container">
       <div class="article__text">
@@ -21,5 +45,6 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque vero quaerat assumenda fugit temporibus libero tempore deserunt minus ex excepturi saepe, earum vitae! Sed tempore dolorum omnis ipsam commodi dolorem, quidem id accusantium! Sapiente id perspiciatis nostrum sed magni numquam. Assumenda dolorem distinctio facere, quaerat saepe consequatur eveniet! Eaque porro vero esse perspiciatis modi possimus impedit quia accusamus expedita.</p>
       </div>
   </div>
-  {% endif %}
 </article>
+{% endif %}
+  
