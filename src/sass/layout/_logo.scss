@@ -16,11 +16,14 @@
       fill: var(--text-color);
     }
 
-    @include xl {
-      .a {
-        fill: var(--color-025);
+    .page--about {
+      @include xl {
+        .a {
+          fill: var(--color-025);
+        }
       }
     }
+
   }
 }
 
