@@ -9,7 +9,7 @@
     line-height: .75;
     font-weight: $font-black;
     position: sticky;
-    top: clamp(5rem, calc(4.5rem + 12vw), 14rem);
+    top: var(--space-4xl-5xl);
     height: 0;
     width: fit-content;
     padding-top: var(--gutter);
@@ -22,19 +22,23 @@
   }
 
   &__text {
-    margin-left: var(--space-xl);
-    padding-left: var(--space-l);
+    margin-left: var(--space-xl-3xl);
     margin-bottom: var(--space-xl);
-    border-left: .0625rem solid var(--text-color);
 
     @include xl {
       margin-left: 0;
+      padding-left: var(--space-l);
+      border-left: .0625rem solid var(--text-color);
     }
 
-    h4 {
+    h3, h4 {
       font-size: var(--step-1);
       font-weight: $font-semibold;
       margin-bottom: var(--space-s);
+    }
+
+    h4 {
+      line-height: 1;
     }
 
     p {
@@ -50,6 +54,10 @@
     a {
       color: var(--accent-dark);
       font-weight: $font-semibold;
+    }
+
+    ul {
+      margin-bottom: var(--space-s);
     }
 
   }
