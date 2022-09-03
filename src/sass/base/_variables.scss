@@ -27,6 +27,11 @@
     --border-opacity: hsl(149, 82%, 44%, .5);
     --border-light: var(--color-100);
     --bshadow: 0 .125rem rgba(0, 0, 0, .1);
+    --accentAlt-A: rgb(250, 253, 82);
+    --accentAlt-B: rgb(60, 251, 178);
+    --gradient: radial-gradient(circle, rgba(254, 191, 191, 0.5) 0%,
+    rgba(30, 252, 186, 0.55) 50%, rgba(189, 253, 225, 0.6) 100%);
+
 
     //fluid typography
     //min viewport @320px, font 16px, scale 1.25
