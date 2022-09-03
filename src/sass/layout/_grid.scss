@@ -9,7 +9,7 @@
   grid-template-rows: repeat(4, 250px);
   justify-content: center;
   align-content: center;
-  // box-shadow: inset 0 0 20rem 1rem black;
+  // box-shadow: inset 0 0 20rem 1rem hsla(240, 24%, 96%, 0.7);
 }
 
 .grid-item:nth-child(n) {
@@ -62,8 +62,7 @@
       right: 0;
       bottom: 0;
       left: 0;
-      background-image: radial-gradient(circle, rgba(56,247,197,.5) 0%,
-      rgba(10,240,144,.55) 50%, rgba(176,244,153,.6) 100%);
+      background-image: var(--gradient);
       z-index: -1;
       transition: .25s ease;
       opacity: 0;
@@ -131,7 +130,7 @@
     .save-button-text {
       visibility: hidden;
       opacity: 0;
-      color: var(--accent);
+      color: var(--accentAlt-B);
     }
   
     .buy-button-text {
@@ -147,7 +146,7 @@
     }
   
     .grid-button {
-      border-color: var(--accent);
+      border-color: var(--accentAlt-B);
     }
   
     .grid-button-container {
