@@ -16,23 +16,15 @@
       fill: var(--text-color);
     }
 
-    .page--about {
-      @include xl {
-        .a {
-          fill: var(--color-025);
-        }
-      }
-    }
-
   }
 }
 
-// .page--home {
+.page--home {
 
-//   .site-logo {
-//     path {
-//       fill: var(--color-025);
-//     }
-//   }
+  .site-logo {
+    path {
+      fill: var(--color-025);
+    }
+  }
 
-// }
+}
