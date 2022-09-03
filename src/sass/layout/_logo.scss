@@ -19,12 +19,14 @@
   }
 }
 
-.page--home {
+@include xl {
+  .page--home {
 
-  .site-logo {
-    path {
-      fill: var(--color-025);
+    .site-logo {
+      path {
+        fill: var(--color-025);
+      }
     }
-  }
+}
 
 }
