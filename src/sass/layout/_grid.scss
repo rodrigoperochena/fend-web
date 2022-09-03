@@ -78,7 +78,7 @@
       transition: border-color .25s ease;
   
       h1 {
-        font-size: var(--step-2);
+        font-size: var(--step-1);
       }
     }
   
@@ -95,8 +95,8 @@
       box-shadow: -0.125rem 0.125rem 0.5rem 0 var(--bg-color-dark-opacity);
       padding: var(--space-s);
       background-color: var(--color-025);
-      width: var(--step-8);
-      height: var(--step-8);
+      width: var(--space-3xl);
+      height: var(--space-3xl);
       transition: .25s ease;
   
       span {
