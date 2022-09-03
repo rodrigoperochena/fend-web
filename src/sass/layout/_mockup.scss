@@ -1,4 +1,5 @@
 .mockup-header {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,10 +17,11 @@
   .acres,
   .of,
   .rainforest {
-    font-size: var(--step-3);
+    font-size: var(--step-4);
     text-transform: uppercase;
     font-weight: $font-semibold;
     color: var(--text-color);
+    letter-spacing: -1.5px;
   }
 
   .buy {
@@ -27,12 +29,13 @@
   }
 
   .number {
-    color: var(--accent);
+    color: rgb(5, 215, 152);
+    text-shadow: 0 0 10px #84ffe2
     // text-shadow: 0 0 1rem var(--text-color);
   }
 
   .of {
-    font-size: var(--step-0);
+    font-size: var(--step-1);
     vertical-align: top;
   }
 
@@ -47,7 +50,7 @@
 
   .header-button {
     position: relative;
-    border: .125rem solid var(--accent);
+    border: .125rem solid var(--accentAlt-A);
     border-radius: 50%;
     padding: var(--space-2xs);
     cursor: pointer;
@@ -67,7 +70,7 @@
     right: 0;
     translate: 25% -50%;
     font-size: var(--step--1);
-    background-color: var(--accent);
+    background-color: var(--accentAlt-A);
     padding: 0 var(--space-2xs);
     border-radius: .5rem;
   }
