@@ -1,7 +1,7 @@
 nav {
   position: fixed;
   right: 0;
-  width: min(82.5vw, 30rem);
+  width: min(82.5vw, 40rem);
   margin: 0 auto;
   transform: translateX(100%);
   transition: transform .5s;
@@ -61,7 +61,6 @@ nav {
   -webkit-tap-highlight-color: transparent;
   background-color: var(--bg-color-dark);
   border-radius: 1rem 1rem 0 0;
-  box-shadow: $box-shadow-tab;
 }
 
 .nav-tab:hover .nav-tab-title {
@@ -106,7 +105,6 @@ nav {
   font-size: var(--step-0);
   color: var(--text-color-nav);
   line-height: 1;
-  width: clamp(3.34rem, 3.8vw, 3.8rem);
   justify-content: center;
 
 }
@@ -182,7 +180,7 @@ nav {
 }
 
 .menu-item {
-  margin-bottom: var(--space-s);
+  margin-bottom: var(--space-xs);
   text-align: right;
 }
 
