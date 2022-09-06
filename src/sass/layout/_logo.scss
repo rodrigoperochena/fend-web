@@ -5,12 +5,12 @@
   padding: var(--gutter) var(--gutter) 0 0;
   z-index: 1;
 
-  @include xl {
+  @include lg {
     margin-left: var(--space-xs);
   }
 
   svg {
-    width: var(--step-7);
+    width: var(--step-9);
 
     .a {
       fill: var(--text-color);
