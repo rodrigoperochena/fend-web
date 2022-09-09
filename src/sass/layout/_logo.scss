@@ -15,18 +15,19 @@
     .a {
       fill: var(--text-color);
     }
-
   }
 }
 
-@include xl {
-  .page--home {
+.page--home {
+  .site-logo {
+    @include lg {
+      margin-left: 0;
+    }
 
-    .site-logo {
+    @include xl {
       path {
         fill: var(--color-025);
       }
     }
-}
-
+  }
 }
