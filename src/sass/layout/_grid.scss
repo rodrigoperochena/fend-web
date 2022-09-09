@@ -190,62 +190,6 @@
     .center-block {
       grid-column: 3/4;
     }
-
-    // .grid-item:nth-child(n) {
-    //   border-bottom: .0625rem dashed var(--accent);
-    // }
-
-    // .grid-item-4,
-    // .grid-item-6,
-    // .grid-item-7,
-    // .grid-item-9,
-    // .grid-item-10,
-    // .grid-item-12,
-    // .grid-item-13,
-    // .grid-item-14 {
-    //   -webkit-mask-image: none;
-    //   mask-image: none;
-    // }
-
-    // .grid-item-2,
-    // .grid-item-4,
-    // .grid-item-7,
-    // .grid-item-10,
-    // .grid-item-13,
-    // .grid-item-14,
-    // .grid-item-17,
-    // .grid-item-19 {
-    //   border-left: .0625rem dashed var(--accent);
-    //   border-right: .0625rem dashed var(--accent);
-    // }
-
-    // .grid-item-1,
-    // .grid-item-6,
-    // .grid-item-12,
-    // .grid-item-16 {
-    //   -webkit-mask-image: linear-gradient(to right, transparent 10%, white 90%);
-    //   mask-image: linear-gradient(90deg, transparent 10%, white 90%);
-    // }
-
-    // .grid-item-5,
-    // .grid-item-11,
-    // .grid-item-15,
-    // .grid-item-20 {
-    //   -webkit-mask-image: linear-gradient(to left, transparent 10%, white 90%);
-    //   mask-image: linear-gradient(90deg, transparent 10%, white 90%);
-    // }
-
-    // .grid-item:nth-child(n + 16) {
-    //   border-bottom: none;
-    //   -webkit-mask-image: linear-gradient(to top, transparent 10%, white 90%);
-    //   mask-image: linear-gradient(90deg, transparent 10%, white 90%);
-    // }
-
-    // .grid-item-4,
-    // .grid-item-5 {
-    //   -webkit-mask-image: linear-gradient(to bottom, transparent 10%, white 90%);
-    //   mask-image: linear-gradient(90deg, transparent 10%, white 90%);
-    // }
   }
 
   @include xl {
