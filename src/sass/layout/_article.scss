@@ -22,15 +22,15 @@
   }
 
   &__text {
-    margin-left: var(--space-xl-3xl);
+    margin-left: var(--space-xl-2xl);
     margin-bottom: var(--space-xl-3xl);
-    max-width: clamp(40rem, 45vw, 45rem);
+    max-width: clamp(40rem, 48vw, 48rem);
 
     &:last-of-type {
       margin-bottom: 0;
     }
 
-    @include lg {
+    @include md {
       margin-left: 0;
       padding-left: var(--space-l);
       border-left: .0625rem solid var(--text-color);
