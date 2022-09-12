@@ -3,9 +3,7 @@
 A site built with static site generator Eleventy.
 
 ### Set up
-As per oficial docs: [https://www.11ty.dev/docs/](https://www.11ty.dev/docs/)
-
-Only extra config is SASS. Check Eleventys config file __.eleventy.js__ for reference.
+Barebones as per oficial docs: [https://www.11ty.dev/docs/](https://www.11ty.dev/docs/) + SASS (Check Eleventys config file __.eleventy.js__ for reference).
 
 **Ready to deploy to Netlify**
 
