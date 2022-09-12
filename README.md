@@ -3,10 +3,10 @@
 A site built with static site generator Eleventy.
 
 ### Set up and Dependencies
-* 11ty - [https://www.11ty.dev/docs/getting-started/](https://www.11ty.dev/docs/getting-started/)
-* SASS (Check Eleventys config file __.eleventy.js__).
-* Concurrently - [https://www.npmjs.com/package/concurrently](https://www.npmjs.com/package/concurrently)
-* Ready to deploy to Netlify.
+* [11ty](https://www.11ty.dev/docs/getting-started/)
+* [SASS](https://sass-lang.com/documentation/js-api/) (Check Eleventys config file __.eleventy.js__).
+* [Concurrently](https://www.npmjs.com/package/concurrently)
+* Ready to deploy to [Netlify](https://www.netlify.com).
 
 ## Requirements
 
