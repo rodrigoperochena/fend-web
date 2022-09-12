@@ -6,8 +6,7 @@ A site built with static site generator Eleventy.
 * 11ty - [https://www.11ty.dev/docs/getting-started/](https://www.11ty.dev/docs/getting-started/)
 * SASS (Check Eleventys config file __.eleventy.js__).
 * Concurrently - [https://www.npmjs.com/package/concurrently](https://www.npmjs.com/package/concurrently)
-
-**Ready to deploy to Netlify**
+* Ready to deploy to Netlify.
 
 ## Requirements
 
