@@ -6,7 +6,8 @@
   "scripts": {
     "serveEleventy": "npx @11ty/eleventy --serve",
     "watchSass": "npx sass src/sass:_site/css --watch",
-    "startBuild": "concurrently \"npm run serveEleventy\" \"npm run watchSass\""
+    "start": "concurrently \"npm:serveEleventy\" \"npm:watchSass\"",
+    "build": "npx @11ty/eleventy && npx sass src/sass:_site/css --style=compressed"
   },
   "repository": {
     "type": "git",
