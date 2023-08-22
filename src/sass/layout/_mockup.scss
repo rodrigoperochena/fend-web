@@ -5,15 +5,23 @@
   align-items: center;
   width: 100%;
   height: 35vh;
-  background: top/cover no-repeat url(/assets/img/home-top.webp);
   padding-top: var(--space-l);
 
-  @media (max-width: 48rem) {
-    background: top/cover no-repeat url(/assets/img/home-top-mobile.webp); 
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 
   @include xl {
     background-size: contain;
+  }
+
+  .header-text {
+    z-index: 1;
   }
 
   .buy,
@@ -124,5 +132,14 @@ body.page--home {
 
   .zoom--in {
     border-bottom: .0625rem solid var(--color-025);
+  }
+}
+
+.home-tile {
+  position: absolute;
+
+  img {
+    height: 100vh;
+    position: absolute;
   }
 }
