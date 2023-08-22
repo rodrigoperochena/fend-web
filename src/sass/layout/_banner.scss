@@ -1,38 +1,77 @@
-.page--about {
-  background-image: url(/assets/img/about.jpg);
+/* Mobile styles */
+@media (max-width: 768px) {
+  .page--about {
+    background-image: url(/assets/img/about-mobile.webp);
+  }
+
+  .page--volunteer {
+    background-image: url(/assets/img/volunteer-mobile.webp);
+  }
+
+  .page--contact {
+    background-image: url(/assets/img/contact.webp);
+  }
+
+  .page--howitworks {
+    background-image: url(/assets/img/how-it-works-mobile.webp);
+  }
+
+  .page--paymenthelp {
+    background-image: url(/assets/img/payment-mobile.webp);
+  }
+
+  .page--faq {
+    background-image: url(/assets/img/faq-mobile.webp);
+  }
+
+  .page--privacy {
+    background-image: url(/assets/img/privacy-mobile.webp);
+  }
+
+  .page--media {
+    background-image: url(/assets/img/media-mobile.webp);
+  }
+
+  .page--volunteer {
+    background-image: url(/assets/img/volunteer-mobile.webp);
+  }
 }
 
-.page--volunteer {
-  background-image: url(/assets/img/volunteer.jpg);
+/* Desktop styles */
+@media (min-width: 769px) {
+  .page--about {
+    background-image: url(/assets/img/about.webp);
+  }
+
+  .page--volunteer {
+    background-image: url(/assets/img/volunteer.webp);
+  }
+
+  .page--contact {
+    background-image: url(/assets/img/contact.webp);
+  }
+
+  .page--howitworks {
+    background-image: url(/assets/img/how-it-works.webp);
+  }
+
+  .page--paymenthelp {
+    background-image: url(/assets/img/payment.webp);
+  }
+
+  .page--faq {
+    background-image: url(/assets/img/faq.webp);
+  }
+
+  .page--media {
+    background-image: url(/assets/img/media.webp);
+  }
+
+  .page--volunteer {
+    background-image: url(/assets/img/volunteer.webp);
+  }
 }
 
-.page--contact {
-  background-image: url(/assets/img/contact.jpg);
-}
-
-.page--howitworks {
-  background-image: url(/assets/img/how-it-works.jpg);
-}
-
-.page--paymenthelp {
-  background-image: url(/assets/img/payment.jpg);
-}
-
-.page--faq {
-  background-image: url(/assets/img/faq.jpg);
-}
-
-.page--privacy {
-  background-image: url(/assets/img/privacy.jpg);
-}
-
-.page--media {
-  background-image: url(/assets/img/media.jpg);
-}
-
-.page--volunteer {
-  background-image: url(/assets/img/volunteer.jpg);
-}
 
 .page--about,
 .page--contact,
