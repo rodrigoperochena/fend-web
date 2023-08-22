@@ -8,6 +8,10 @@
   background: top/cover no-repeat url(/assets/img/home-top.webp);
   padding-top: var(--space-l);
 
+  @media (max-width: 48rem) {
+    background: top/cover no-repeat url(/assets/img/home-top-mobile.webp); 
+  }
+
   @include xl {
     background-size: contain;
   }
